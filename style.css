@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --corAzul:   #009CDC;
+    --corPreto:  #403C3D;
+    --corBeje:   #F3B16A;
+    --corBranco: #ffffff;
+
+    --font-bold: 'Bebas Neue', cursive;
+    --font-main: 'Raleway', sans-serif;
+}
+
+header{
+    background-color: var(--corAzul);
+    padding-top: 80px;
+    min-height: 120px;
+}
+
+header > h1{
+    color: var(--corBranco);
+    font-family: var(--font-bold);
+    text-align: center;
+    font-weight: normal;
+}
+
+header > p{
+    color: var(--corPreto);
+    font-family: var(--font-main);
+    text-align: center;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #2683a8;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li{
+    width: 100px;
+    margin: 7px;
+    padding: 7px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--corBranco);
+    font-family: var(--font-main);
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+nav ul li:hover .sub-menu-1{
+       display: block;
+       position: absolute;
+       background-color: var(--corPreto);
+       margin-top: 15px;
+       margin-left: -10px;
+}
+
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: -38px;
+    transition-duration: 0.7s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover{
+    background-color: var(--corBeje);
+}
+
+/*incio*/
+
+.sub-menu-2{
+    display: none;
+}
+
+nav ul li:hover .sub-menu-2{
+       display: block;
+       position: absolute;
+       background-color: var(--corPreto);
+       margin-top: 15px;
+       margin-left: -38px;
+}
+
+nav ul li:hover .sub-menu-2 ul{
+    display: block;
+}
+
+nav ul li:hover .sub-menu-2 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+}
+
+nav ul li:hover .sub-menu-2 ul li:hover{
+    background-color: var(--corBeje);
+}
+
+Home
+Serviços
+    Orçamentos
+    Manutenção
+    Vendas
+    Updrade
+
+Suporte
+    Assistencia técnica
+    Assistencia Remota
+
+Curiosidades
+    Como surgiu a internet
+    Como fazer Updrade
+    Oque é limpeza preventiva
+    Windows 10
+    Windows 11
+
+Sobre Nós
+    De onde surgimos
