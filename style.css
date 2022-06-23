@@ -120,8 +120,8 @@ nav ul li:hover .sub-menu-2 ul li:hover{
 }
 
 main{
-background-image: url('Imagens/Informatica-Basica.jpg');
-background-size: ;
+background-image: url('Imagens/numero.jpg');
+background-size: cover;
 background-attachment: fixed;
 
 }
@@ -131,6 +131,9 @@ article{
     padding: 10px;
     width: 1100px;
     margin: auto;
+    text-align: justify;
+    line-height: 1.5em;
+    
     
 }
 
@@ -159,11 +162,12 @@ article a{
 
 footer{
     background-color: var(--corAzul);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-family: var(--font-main);
     color: var(--corPreto);
     font-size: 1.3em;
+    font-weight: bold;
 }
 
 p{
