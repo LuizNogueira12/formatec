@@ -120,13 +120,18 @@ nav ul li:hover .sub-menu-2 ul li:hover{
 }
 
 main{
-
+background-image: url('Informatica-Basica.jpg');
+background-size: cover;
+background-attachment: fixed;
 
 }
 
 article{
     background-color: var(--corBeje);    
     padding: 10px;
+    width: 1100px;
+    margin: auto;
+    
 }
 
 article > h2{
@@ -140,14 +145,14 @@ article > h2{
     text-indent: 10px;
 }
 
-
-
-
-
-
-
-
-
+article a{
+    margin: ;
+    padding: 2px;
+    border-radius: 2px;
+    width: 100%;
+    line-height: 1.5em;
+    text-align: justify;
+}
 
 
 
@@ -159,6 +164,10 @@ footer{
     font-family: var(--font-main);
     color: var(--corPreto);
     font-size: 1.3em;
+}
+
+p{
+    
 }
 
 
