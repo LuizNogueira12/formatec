@@ -121,10 +121,23 @@ nav ul li:hover .sub-menu-2 ul li:hover{
 
 main{
 
+
 }
 
 article{
-    background-image: url();
+    background-color: var(--corBeje);    
+    padding: 10px;
+}
+
+article > h2{
+    background-image: linear-gradient(to right, var(--corBranco), transparent);
+    width: 700px;
+    padding: 1px;
+    border-radius: 5px;
+    font-family: var(--font-bold);
+    font-size: 1.5em;
+    font-weight: normal;
+    text-indent: 10px;
 }
 
 
