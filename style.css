@@ -22,7 +22,8 @@
 header{
     background-color: var(--corAzul);
     padding-top: 80px;
-    min-height: 120px;
+    min-height: 140px;
+    
 }
 
 header > h1{
@@ -30,6 +31,7 @@ header > h1{
     font-family: var(--font-bold);
     text-align: center;
     font-weight: normal;
+    font-size: 3em;
 }
 
 header > p{
@@ -117,6 +119,37 @@ nav ul li:hover .sub-menu-2 ul li:hover{
     background-color: var(--corBeje);
 }
 
+main{
+
+}
+
+article{
+    background-image: url();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: var(--corAzul);
+    padding: 20px;
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--corPreto);
+    font-size: 1.3em;
+}
+
+
+/*
 Home
 Serviços
     Orçamentos
@@ -137,3 +170,4 @@ Curiosidades
 
 Sobre Nós
     De onde surgimos
+    */
