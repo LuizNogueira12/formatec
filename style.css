@@ -75,7 +75,7 @@ nav ul li:hover .sub-menu-1{
        position: absolute;
        background-color: var(--corPreto);
        margin-top: 15px;
-       margin-left: -10px;
+       margin-left: -38px;
 }
 
 nav ul li:hover .sub-menu-1 ul{
@@ -85,7 +85,7 @@ nav ul li:hover .sub-menu-1 ul{
 nav ul li:hover .sub-menu-1 ul li{
     width: 150px;
     text-align: center;
-    border-radius: -38px;
+    border-radius: 10px;
     transition-duration: 0.7s;
 }
 
@@ -167,7 +167,7 @@ article{
     width: 1100px;
     margin: auto;
     text-align: justify;
-    line-height: 1.5em;
+    
     
     
 }
@@ -175,12 +175,13 @@ article{
 article > h2{
     background-image: linear-gradient(to right, var(--corBranco), transparent);
     width: 700px;
-    padding: 1px;
+    height: 28px;
     border-radius: 5px;
     font-family: var(--font-bold);
     font-size: 1.5em;
     font-weight: normal;
-    text-indent: 10px;
+    text-indent: 10px;   
+    line-height: center;
 }
 
 article a{
@@ -192,9 +193,13 @@ article a{
     text-align: justify;
 }
 
+#secundario{
+    background-color: var(--corPreto);
+}
 
-
-
+#video{
+    background-color: var(--corPreto);
+}
 footer{
     background-color: var(--corAzul);
     padding: 10px;
