@@ -63,6 +63,8 @@ nav ul li a{
     font-family: var(--font-main);
 }
 
+/*HOME*/
+
 .sub-menu-1{
     display: none;
 }
@@ -90,7 +92,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     background-color: var(--corBeje);
 }
 
-/*incio*/
+/*SERVIÇOS*/
 
 .sub-menu-2{
     display: none;
@@ -118,6 +120,37 @@ nav ul li:hover .sub-menu-2 ul li{
 nav ul li:hover .sub-menu-2 ul li:hover{
     background-color: var(--corBeje);
 }
+
+/*CURIOSIDADES*/
+
+.sub-menu-4{
+    display: none;
+}
+
+nav ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    background-color: var(--corPreto);
+    margin-top: 15px;
+    margin-left: -10px;    
+}
+
+nav ul li:hover .sub-menu-4 ul{
+    display: block;
+}
+
+nav ul li:hover .sub-menu-4 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+
+}
+
+nav ul li:hover .sub-menu-4 ul li:hover{
+    background-color: var(--corBeje);
+}
+
 
 main{
 background-image: url('Imagens/numero.jpg');
