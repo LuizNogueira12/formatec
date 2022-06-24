@@ -193,7 +193,8 @@ article a{
     text-align: justify;
 }
 
-#secundario{ /*Pagina2*/
+/*PAGINA 2*/
+#secundario{ 
     background-color: var(--corPreto);
 }
 
