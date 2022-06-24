@@ -180,12 +180,8 @@ article > h2{
     font-family: var(--font-bold);
     font-size: 1.5em;
     font-weight: normal;
-<<<<<<< HEAD
     text-indent: 10px;   
     line-height: center;
-=======
-    text-indent: 10px;    
->>>>>>> eb8ece53625701c7a89bcde78fdb79ee11538e93
 }
 
 article a{
@@ -197,7 +193,6 @@ article a{
     text-align: justify;
 }
 
-<<<<<<< HEAD
 #secundario{
     background-color: var(--corPreto);
 }
@@ -205,8 +200,6 @@ article a{
 #video{
     background-color: var(--corPreto);
 }
-=======
->>>>>>> eb8ece53625701c7a89bcde78fdb79ee11538e93
 footer{
     background-color: var(--corAzul);
     padding: 10px;
