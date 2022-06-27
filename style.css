@@ -203,9 +203,9 @@ div.video{
     text-align: center;
     margin: 0px -10px 10px -10px;
     padding: 20px;
-    padding-bottom: 58px;
+    padding-bottom: 48px;
     position: relative;
-    padding: 30%;    
+    padding: 25%;    
 }
 
 div.video > iframe{
@@ -214,6 +214,7 @@ div.video > iframe{
     left: 5%;
     width: 90%;
     height: 90%;
+    text-align: right;
 }
 
 footer{
