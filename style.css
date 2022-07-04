@@ -40,6 +40,37 @@ header > p{
     font-weight: bold;
 }
 
+/* Menu */
+
+.menu-principal{
+    list-style-type: none;
+    padding: 0px;
+    background-color: var(--corAzul);
+    font-family: var(--font-main);
+    text-align: center;
+}
+
+.menu-principal li{
+    display: inline;
+}
+
+.menu-principal li a{
+    color: var(--corBranco);
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px; 
+}
+
+.menu-principal li a:hover{
+    background-color:var(--corPreto);
+    border-radius: 10px;   
+    transition-duration: 1s;
+}
+
+/* SubMenu */
+
+.menu-principal
+
 
 
 
@@ -128,10 +159,6 @@ Serviços
     Manutenção
     Vendas
     Updrade
-
-Suporte
-    Assistencia técnica
-    Assistencia Remota
 
 Curiosidades
     Como surgiu a internet
