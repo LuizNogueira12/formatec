@@ -42,34 +42,47 @@ header > p{
 
 /* Menu */
 
-.menu-principal{
-    list-style-type: none;
-    padding: 0px;
+.menu-principal ul{
     background-color: var(--corAzul);
-    font-family: var(--font-main);
     text-align: center;
+   
 }
 
-.menu-principal li{
+.menu-principal ul li{
     display: inline;
+    position: relative;
+    padding: 10px;
+    
 }
 
-.menu-principal li a{
-    color: var(--corBranco);
-    display: inline-block;
+.menu-principal ul li a{
+    color: var(--corPreto);
     text-decoration: none;
-    padding: 12px; 
+    padding: 10px;
 }
 
-.menu-principal li a:hover{
-    background-color:var(--corPreto);
-    border-radius: 10px;   
-    transition-duration: 1s;
+.menu-principal ul li a:hover{
+    background-color: var(--corBeje);
 }
 
 /* SubMenu */
 
-.menu-principal
+.menu-principal ul ul{
+    display: none;
+    position: absolute;
+}
+
+.menu-principal ul li:hover ul{
+    display: block;
+}
+
+.menu-principal ul ul{
+    width: 150px;
+}
+
+.menu-principal ul ul li a{
+    display: block;
+}
 
 
 
