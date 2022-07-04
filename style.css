@@ -41,117 +41,7 @@ header > p{
     font-weight: bold;
 }
 
-nav{
-    background-color: #2683a8;
-    text-align: center;
-}
 
-nav ul{
-    display: inline-flex;
-    list-style: none;
-}
-
-nav ul li{
-    width: 100px;
-    margin: 7px;
-    padding: 7px;
-    font-family: var(--font-main);
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: var(--corBranco);
-    font-family: var(--font-main);
-}
-
-/*HOME*/
-
-.sub-menu-1{
-    display: none;
-}
-
-nav ul li:hover .sub-menu-1{
-       display: block;
-       position: absolute;
-       background-color: var(--corPreto);
-       margin-top: 15px;
-       margin-left: -38px;
-}
-
-nav ul li:hover .sub-menu-1 ul{
-    display: block;
-}
-
-nav ul li:hover .sub-menu-1 ul li{
-    width: 150px;
-    text-align: center;
-    border-radius: 10px;
-    transition-duration: 0.7s;
-}
-
-nav ul li:hover .sub-menu-1 ul li:hover{
-    background-color: var(--corBeje);
-}
-
-/*SERVIÇOS*/
-
-.sub-menu-2{
-    display: none;
-}
-
-nav ul li:hover .sub-menu-2{
-       display: block;
-       position: absolute;
-       background-color: var(--corPreto);
-       margin-top: 15px;
-       margin-left: -38px;
-}
-
-nav ul li:hover .sub-menu-2 ul{
-    display: block;
-}
-
-nav ul li:hover .sub-menu-2 ul li{
-    width: 150px;
-    text-align: center;
-    border-radius: 10px;
-    transition-duration: 0.7s;
-}
-
-nav ul li:hover .sub-menu-2 ul li:hover{
-    background-color: var(--corBeje);
-}
-
-/*CURIOSIDADES*/
-
-.sub-menu-4{
-    display: none;
-}
-
-nav ul li:hover .sub-menu-4{
-    display: block;
-    position: absolute;
-    background-color: var(--corPreto);
-    margin-top: 15px;
-    margin-left: -38px;    
-    color: var(--corBranco);
-}
-
-nav ul li:hover .sub-menu-4 ul{
-    display: block;
-}
-
-nav ul li:hover .sub-menu-4 ul li{
-    width: 150px;
-    text-align: center;
-    border-radius: 10px;
-    transition-duration: 0.7s;
-
-}
-
-nav ul li:hover .sub-menu-4 ul li:hover{
-    background-color: var(--corBeje);
-}
 
 
 main{
@@ -167,9 +57,7 @@ article{
     width: 1100px;
     margin: auto;
     text-align: justify;
-    
-    
-    
+    line-height: 1.5em;    
 }
 
 article > h2{
