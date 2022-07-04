@@ -49,8 +49,7 @@ header > p{
     left: 0px;
     font-family: var(--font-main);   
     font-weight: bold;
-
-       
+    
 }
 
 .menu-principal ul li{
@@ -58,13 +57,14 @@ header > p{
     position: relative;
     padding: 50px;
     margin: 7px;
-    padding: 7px;   
+    padding: 7px;
 }
 
 .menu-principal ul li a{
     color: var(--corPreto);
     text-decoration: none;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .menu-principal ul li a:hover{
@@ -81,7 +81,7 @@ header > p{
 .menu-principal ul li:hover ul{
     display: block;
     position: absolute;
-    margin-top: 10px;
+    margin-top: 10.1px;
     margin-left: -38px;
 }
 
@@ -89,6 +89,7 @@ header > p{
     width: 150px;
     text-align: center;
     transition-duration: 0.7s;
+    
 }
 
 .menu-principal ul ul li a{
