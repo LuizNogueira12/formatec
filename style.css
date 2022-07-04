@@ -45,13 +45,17 @@ header > p{
 .menu-principal ul{
     background-color: var(--corAzul);
     text-align: center;
-   
+    padding: 10px;
+    left: 0;
+    font-family: var(--font-main);   
+    font-weight: bold;
+    
 }
 
 .menu-principal ul li{
     display: inline;
     position: relative;
-    padding: 10px;
+    padding: 20px;
     
 }
 
@@ -124,7 +128,9 @@ article a{
     text-align: justify;
 }
 
+
 /*PAGINA 2*/
+
 #secundario{ 
     background-color: var(--corPreto);
 }
