@@ -42,6 +42,14 @@ header > p{
 
 /* Menu */
 
+
+
+
+
+
+
+
+/*
 .menu-principal ul{
     background-color: var(--corAzul);
     text-align: center;
@@ -70,9 +78,9 @@ header > p{
 .menu-principal ul li a:hover{
     background-color: var(--corBeje);
 }
-
+*/
 /* SubMenu */
-
+/*
 .menu-principal ul ul{
     display: none;
 
@@ -97,7 +105,7 @@ header > p{
     border-radius: 7px;
     padding: 5px;
 }
-
+*/
 
 
 
