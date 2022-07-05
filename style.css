@@ -42,7 +42,88 @@ header > p{
 
 /* Menu */
 
+nav{
+    background-color:#2780a3;
+    font-family: var(--font-main);
+    font-weight: bold;
+    text-align: center;
+}
 
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li{
+    width: 100px;
+    margin: 7px;
+    padding: 7px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Home */
+
+.sub-menu-1{
+    display: none;
+}
+
+nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: #2780a3;
+    margin-top: 11px;
+    margin-left: -41px;
+    position: left;
+}
+
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover{
+    background-color: white;
+}
+
+/*Serivços*/
+
+.sub-menu-2{
+    display: none;
+}
+
+nav ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color: #2780a3;
+    margin-top: 13px;
+    margin-bottom: -41px;
+    position: rigth;
+}
+
+nav ul li:hover .sub-menu-2 ul{
+    display: block;
+}
+
+nav ul li:hover .sub-menu-2 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+}
+
+nav ul li:hover .sub-menu-2 ul li:hover{
+    background-color: white;
+}
 
 
 
