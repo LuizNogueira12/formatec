@@ -18,9 +18,11 @@
     --font-main: 'Raleway', sans-serif;
 }
 
-main{
-   width: 100%;
+body{
    background-image: url('../Imagens/numero.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
 }
 
 header{
