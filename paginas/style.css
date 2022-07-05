@@ -196,6 +196,16 @@ div.video > iframe{
     text-align: right;
 }
 
+/*Monitor*/
+
+.monitor{
+    border: 1px solid black;
+    height: 450px;
+    background-color: white;
+    background-image: url('../Imagens/kisspng-computer.png');
+     
+}
+
 footer{
     background-color: var(--corAzul);
     padding: 10px;
