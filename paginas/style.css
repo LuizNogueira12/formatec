@@ -132,71 +132,6 @@ nav ul li:hover .sub-menu-2 ul li:hover{
     background-color: white;
 }
 
-
-
-
-
-
-/*
-.menu-principal ul{
-    background-color: var(--corAzul);
-    text-align: center;
-    padding: 12px;
-    left: 0px;
-    font-family: var(--font-main);   
-    font-weight: bold;
-    
-}
-
-.menu-principal ul li{
-    display: inline;
-    position: relative;
-    padding: 50px;
-    margin: 7px;
-    padding: 7px;
-}
-
-.menu-principal ul li a{
-    color: var(--corPreto);
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.menu-principal ul li a:hover{
-    background-color: var(--corBeje);
-}
-*/
-/* SubMenu */
-/*
-.menu-principal ul ul{
-    display: none;
-
-}
-
-.menu-principal ul li:hover ul{
-    display: block;
-    position: absolute;
-    margin-top: 10.1px;
-    margin-left: -38px;
-}
-
-.menu-principal ul ul{
-    width: 150px;
-    text-align: center;
-    transition-duration: 0.7s;
-    
-}
-
-.menu-principal ul ul li a{
-    display: block;
-    border-radius: 7px;
-    padding: 5px;
-}
-*/
-
-
-
 main{
 background-image: url('Imagens/numero.jpg');
 background-size: cover;
@@ -213,7 +148,7 @@ article{
     line-height: 1.5em;    
 }
 
-article > h2{
+article > h2, h3{
     background-image: linear-gradient(to right, var(--corBranco), transparent);
     width: 700px;
     height: 28px;
@@ -223,6 +158,7 @@ article > h2{
     font-weight: normal;
     text-indent: 10px;   
     line-height: center;
+    
 }
 
 article a{
