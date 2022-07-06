@@ -213,6 +213,9 @@ div.video > iframe{
      
 }
 
+
+/* Rodapé */
+
 footer{
     background-color: var(--corAzul);
     padding: 10px;
@@ -223,10 +226,20 @@ footer{
     font-weight: bold;
     text-decoration: none;
 }
+footer a{
+    color: var(--corPreto);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--corPreto);
+    text-decoration: underline;
+}
 
 p{
     font-family: var(--font-main);
     font-weight: bold;
+    line-height: 1.8em;
 }
 
 
