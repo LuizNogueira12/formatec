@@ -144,15 +144,14 @@ main{
 background-image: url('Imagens/numero.jpg');
 background-size: cover;
 background-attachment: fixed;
-
 }
 
 article{
+    
     background-color: var(--corBeje);    
     padding: 10px;
     width: 1100px;
     margin: auto;
-    text-align: justify;
     line-height: 1.5em;    
 }
 
@@ -167,13 +166,6 @@ article > h2, h3{
     text-indent: 10px; 
     line-height: normal;
     
-}
-
-h2{   
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; 
 }
 
 article a{
@@ -193,22 +185,20 @@ article a{
 }
 
 div.video{
-    background-color: var(--corPreto);
-    text-align: center;
-    margin: 0px -10px 10px -10px;
+    background-color: var(--corAzul);
     padding: 20px;
-    padding-bottom: 48px;
+    margin: 0px -10px;
+    padding-bottom: 55.6%;
     position: relative;
-    padding: 25%;    
 }
 
 div.video > iframe{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-    text-align: right;
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+
 }
 
 /*Monitor*/
@@ -248,8 +238,8 @@ p{
     font-family: var(--font-main);
     font-weight: bold;
     line-height: 1.8em;
+    text-align: justify;
 }
-
 
 /*
 Home
