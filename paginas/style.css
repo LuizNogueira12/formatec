@@ -102,6 +102,14 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     background-color: white;
 }
 
+/* Botoes de Home e Sobre Nós */
+
+.home-sobrenos a:hover{
+    text-decoration: underline;
+    color: var(--corBranco);
+}
+
+
 /*Serivços*/
 
 .sub-menu-2{
