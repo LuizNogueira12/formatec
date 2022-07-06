@@ -205,10 +205,12 @@ div.video > iframe{
 
 .monitor{
     border: 1px solid black;
+    border-radius: 10px;
+    width: 1100px;
     height: 450px;
     background-color: white;
-    background-image: url('../Imagens/kisspng-computer.png');
-     
+    background-image: url('../Imagens/monitores.jpg');
+      
 }
 
 
