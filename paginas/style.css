@@ -23,6 +23,7 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
+   width: 100vw;
      
 }
 
@@ -30,7 +31,7 @@ header{
     background-color: var(--corAzul);
     padding-top: 60px;
     min-height: 100px;   
-    width: 100.5vw;
+    
 }
 
 header > h1{
