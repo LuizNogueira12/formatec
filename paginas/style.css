@@ -23,7 +23,39 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
+
+   
 }
+
+
+article{
+    width: 1100;
+}
+
+@media (max-width: 1100px){
+    article{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1024px){
+    article{
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px){
+    article{
+        width: 400px;
+    }
+}
+
+@media (max-width: 420px){
+    article{
+        width: 320px;
+    }
+}
+
 
 header{
     background-color: var(--corAzul);
@@ -147,10 +179,9 @@ background-attachment: fixed;
 }
 
 article{
-    
     background-color: var(--corBeje);    
     padding: 10px;
-    width: 1100px;
+    
     margin: auto;
     line-height: 1.5em;    
 }
@@ -185,7 +216,7 @@ article a{
 }
 
 div.video{
-    background-color: var(--corAzul);
+   background-color: var(--corPreto);
     padding: 20px;
     margin: 0px -10px;
     padding-bottom: 55.6%;
@@ -218,7 +249,7 @@ div.video > iframe{
 
 footer{
     background-color: var(--corAzul);
-    padding: 10px;
+    padding: 1px;
     text-align: center;
     font-family: var(--font-main);
     color: var(--corPreto);
@@ -240,7 +271,6 @@ p{
     font-family: var(--font-main);
     font-weight: bold;
     line-height: 1.8em;
-    text-align: justify;
 }
 
 /*
