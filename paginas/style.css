@@ -18,20 +18,11 @@
     --font-main: 'Raleway', sans-serif;
 }
 
-body{
-   background-image: url('../Imagens/numero.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
-   width: 100vw;
-     
-}
-
 header{
     background-color: var(--corAzul);
     padding-top: 60px;
-    min-height: 100px;   
-    
+    min-height: 100px;
+    width: 100vw;   
 }
 
 header > h1{
@@ -56,7 +47,7 @@ nav{
     font-family: var(--font-main);
     font-weight: bold;
     text-align: center;
-    width: 100.5vw;
+    width: 100%;
 }
 
 nav ul{
@@ -143,12 +134,6 @@ nav ul li:hover .sub-menu-2 ul li:hover{
     background-color: white;
 }
 
-main{
-background-image: url('Imagens/numero.jpg');
-background-size: cover;
-background-attachment: fixed;
-}
-
 article{
     background-color: var(--corBeje);    
     padding: 10px;
@@ -188,10 +173,10 @@ article a{
 
 div.video{
    background-color: var(--corPreto);
-    padding: 20px;
-    margin: 0px -10px;
-    padding-bottom: 55.6%;
-    position: relative;
+   padding: 20px;
+   margin: 0px -10px;
+   padding-bottom: 55.6%;
+   position: relative;
 }
 
 div.video > iframe{
@@ -215,7 +200,6 @@ div.video > iframe{
       
 }
 
-
 /* Rodapé */
 
 footer{
@@ -227,7 +211,7 @@ footer{
     font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
-    width: 100.2vw;
+    width: 100.1vw;
 }
 footer a{
     color: var(--corPreto);
