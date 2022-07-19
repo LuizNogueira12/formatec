@@ -167,26 +167,32 @@ article a{
 
 /*PAGINA 2*/
 
-#secundario{ 
-    background-color: var(--corPreto);
+caption{
+    background-color: var(--corAzul);
+    color: var(--corPreto);
+    font-family: var(--font-main);
+    font-weight: bolder;
+}
+ 
+tbody > tr:nth-child(2n -1){
+    background-color: gray;
+    font-weight: bolder;
 }
 
-div.video{
-   background-color: var(--corPreto);
-   padding: 20px;
-   margin: 0px -10px;
-   padding-bottom: 55.6%;
-   position: relative;
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-div.video > iframe{
-   position: absolute;
-   top: 5%;
-   left: 5%;
-   width: 90%;
-   height: 90%;
-
+th{
+    border: 1px solid black;
 }
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
 
 /*Monitor*/
 
